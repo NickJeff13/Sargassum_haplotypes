@@ -1,0 +1,73 @@
+#NEXUS
+[R-package APE, Thu Feb 12 11:08:50 2026]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 30;
+	TAXLABELS
+		JX560110.1
+		OZIMP097-16|Sargassum
+		SDP651153-17|Sargassum
+		AHAK452-18|Sargassum
+		AHAK1283-19|Sargassum
+		SDP651410-18|Sargassum
+		PHAZO106-10|Sargassum
+		SDP651009-17|Sargassum
+		MACRO4303-16|Sargassum
+		SDP651174-17|Sargassum
+		SDP651239-17|Sargassum
+		MACRO4304-16|Sargassum
+		MACRO4191-16|Sargassum
+		MACRO2584-10|Sargassum
+		MACRO975-08|Sargassum
+		MACRO2806-10|Sargassum
+		PHAZO024-10|Sargassum
+		JRPAA6236-15|Sargassum
+		JRPAA6222-15|Sargassum
+		MCRGDNA_11_consensus_sequence
+		AHAK216-17|Sargassum
+		MACRO2948-10|Sargassum
+		PHAZO107-10|Sargassum
+		JRPAA5096-15|Sargassum
+		JRPAA8180-15|Sargassum
+		JRPAA9848-15|Sargassum
+		MACRO058-06|Sargassum
+		MACRO560-07|Sargassum
+		PHAZO186-10|Sargassum
+		PHAZO185-10|Sargassum
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	JX560110.1,
+		2	OZIMP097-16|Sargassum,
+		3	SDP651153-17|Sargassum,
+		4	AHAK452-18|Sargassum,
+		5	AHAK1283-19|Sargassum,
+		6	SDP651410-18|Sargassum,
+		7	PHAZO106-10|Sargassum,
+		8	SDP651009-17|Sargassum,
+		9	MACRO4303-16|Sargassum,
+		10	SDP651174-17|Sargassum,
+		11	SDP651239-17|Sargassum,
+		12	MACRO4304-16|Sargassum,
+		13	MACRO4191-16|Sargassum,
+		14	MACRO2584-10|Sargassum,
+		15	MACRO975-08|Sargassum,
+		16	MACRO2806-10|Sargassum,
+		17	PHAZO024-10|Sargassum,
+		18	JRPAA6236-15|Sargassum,
+		19	JRPAA6222-15|Sargassum,
+		20	MCRGDNA_11_consensus_sequence,
+		21	AHAK216-17|Sargassum,
+		22	MACRO2948-10|Sargassum,
+		23	PHAZO107-10|Sargassum,
+		24	JRPAA5096-15|Sargassum,
+		25	JRPAA8180-15|Sargassum,
+		26	JRPAA9848-15|Sargassum,
+		27	MACRO058-06|Sargassum,
+		28	MACRO560-07|Sargassum,
+		29	PHAZO186-10|Sargassum,
+		30	PHAZO185-10|Sargassum
+	;
+	TREE * UNTITLED = [&U] ((((((((((1:0.07596,2:-0.01204):0.01091,3:-0.00121):0.00073,4:-0.00052):0.00027,5:-0.00026):0.00014,6:-0.00013):0,7:0):0,8:0):0,((((9:-0.00011,(10:0,11:0):0.00011):0,12:0):0,13:0):0,14:0):0):0,15:0):0,((((16:0,(((17:-0.00025,(18:0,19:0):0.00024):0.00012,20:-0.00012):0,21:0):0):0,22:0):0,23:0):0,(((((24:0,25:0):0,26:0):0,27:0):0,28:0):0,29:0):0):0,30:0);
+END;

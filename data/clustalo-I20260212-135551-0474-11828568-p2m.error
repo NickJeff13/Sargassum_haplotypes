@@ -1,0 +1,1 @@
+FORCED DEBUG: Potential Problem: sequences (N=30) don't have same lengths but contain gaps, consider using --dealign
