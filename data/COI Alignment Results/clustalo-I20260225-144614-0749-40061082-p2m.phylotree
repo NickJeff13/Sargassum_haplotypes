@@ -1,73 +1,128 @@
-(
-(
-(
-(
-(
-(
-KY047211.1_Sargassum_muticum:0.00050,
-AB776657.1_Sargassum_muticum:0.0000)
-:0.00080,
-(
-(
-JQ807786.1_Sargassum_muticum:0.00000,
-NC_024614.1_Sargassum_muticum:0.00000)
-:0.00000,
-KJ938301.1_Sargassum_muticum:0.00000)
-:0.00000)
-:0.00000,
-KY047210.1_Sargassum_muticum:0.00000)
-:0.00000,
-KY047215.1_Sargassum_muticum:0.00000)
-:0.00000,
-(
-(
-KY047212.1_Sargassum_muticum:0.00000,
-(
-MW682830.1_Sargassum_muticum:0.00000,
-PP735959.1_Sargassum_muticum:0.00000)
-:0.00000)
-:0.00000,
-KY047216.1_Sargassum_muticum:0.00000)
-:0.00000)
-:0.00000,
-(
-(
-(
-(
-Sargassum_muticum_HalifaxHarbour:0.004,
-(
-(
-KC782873.1_Sargassum_muticum:0.00000,
-KC782903.1_Sargassum_muticum:0.00000)
-:0.00022,
-EU681423.1_Sargassum_muticum:0.000)
-:0.00014)
-:0.00000,
-OR051681.1_Sargassum_muticum:0.00000)
-:0.00000,
-KY047213.1_Sargassum_muticum:0.00000)
-:0.00000,
-KY047217.1_Sargassum_muticum:0.00000)
-:0.00000,
-(
-(
-(
-(
-(
-(
-KY047205.1_Sargassum_muticum:0.00,
-(
-MT470904.1_Sargassum_fluitans:0.01609,
-JX560108_Sargassum_horridum:0.02391)
-:0.05904)
-:0.00071,
-KY047206.1_Sargassum_muticum:0.000)
-:0.00036,
-KY047207.1_Sargassum_muticum:0.000)
-:0.00018,
-KY047208.1_Sargassum_muticum:0.000)
-:0.00000,
-KY047209.1_Sargassum_muticum:0.00000)
-:0.00000,
-KY047214.1_Sargassum_muticum:0.00000)
-:0.00000);
+#NEXUS
+begin taxa;
+	dimensions ntax=26;
+	taxlabels
+	'AB776657.1_Sargassum_muticum'
+	'EU681423.1_Sargassum_muticum'
+	'JQ807786.1_Sargassum_muticum'
+	JX560108_Sargassum_horridum
+	'KC782873.1_Sargassum_muticum'
+	'KC782903.1_Sargassum_muticum'
+	'KJ938301.1_Sargassum_muticum'
+	'KY047205.1_Sargassum_muticum'
+	'KY047206.1_Sargassum_muticum'
+	'KY047207.1_Sargassum_muticum'
+	'KY047208.1_Sargassum_muticum'
+	'KY047209.1_Sargassum_muticum'
+	'KY047210.1_Sargassum_muticum'
+	'KY047211.1_Sargassum_muticum'
+	'KY047212.1_Sargassum_muticum'
+	'KY047213.1_Sargassum_muticum'
+	'KY047214.1_Sargassum_muticum'
+	'KY047215.1_Sargassum_muticum'
+	'KY047216.1_Sargassum_muticum'
+	'KY047217.1_Sargassum_muticum'
+	'MT470904.1_Sargassum_fluitans'
+	'MW682830.1_Sargassum_muticum'
+	'NC_024614.1_Sargassum_muticum'
+	'OR051681.1_Sargassum_muticum'
+	'PP735959.1_Sargassum_muticum'
+	Sargassum_muticum_HalifaxHarbour[&!color=#df392e]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((('KY047211.1_Sargassum_muticum':5.0E-4,'AB776657.1_Sargassum_muticum':0.0):8.0E-4,(('JQ807786.1_Sargassum_muticum':0.0,'NC_024614.1_Sargassum_muticum':0.0):0.0,'KJ938301.1_Sargassum_muticum':0.0):0.0):0.0,'KY047210.1_Sargassum_muticum':0.0):0.0,'KY047215.1_Sargassum_muticum':0.0):0.0,(('KY047212.1_Sargassum_muticum':0.0,('MW682830.1_Sargassum_muticum':0.0,'PP735959.1_Sargassum_muticum':0.0):0.0):0.0,'KY047216.1_Sargassum_muticum':0.0):0.0):0.0,((((Sargassum_muticum_HalifaxHarbour:0.004,(('KC782873.1_Sargassum_muticum':0.0,'KC782903.1_Sargassum_muticum':0.0):2.2E-4,'EU681423.1_Sargassum_muticum':0.0):1.4E-4):0.0,'OR051681.1_Sargassum_muticum':0.0):0.0,'KY047213.1_Sargassum_muticum':0.0):0.0,'KY047217.1_Sargassum_muticum':0.0):0.0,(((((('KY047205.1_Sargassum_muticum':0.0,('MT470904.1_Sargassum_fluitans':0.01609,JX560108_Sargassum_horridum:0.02391):0.05904):7.1E-4,'KY047206.1_Sargassum_muticum':0.0):3.6E-4,'KY047207.1_Sargassum_muticum':0.0)[&!rotate=true]:1.8E-4,'KY047208.1_Sargassum_muticum':0.0):0.0,'KY047209.1_Sargassum_muticum':0.0):0.0,'KY047214.1_Sargassum_muticum':0.0):0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=15.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=3.0;
+	set scaleBar.scaleRange=0.009;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="FreeSans";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
